@@ -12,7 +12,7 @@
     "watch": "run-p watch:*",
     "test": "ng test --sourcemap=false",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e --delete-output-path=false"
   },
   "private": true,
   "dependencies": {
