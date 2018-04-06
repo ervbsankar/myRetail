@@ -1,7 +1,7 @@
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
 import {AppComponent} from "./app.component";
-import {AppItemService} from "./service/app.item.service";
+import {ItemService} from "./service/item.service";
 import {HttpClientModule} from "@angular/common/http";
 import {CommonModule} from "@angular/common";
 import {StarDirective } from "./directive/star.directive";
@@ -17,7 +17,7 @@ import {StarDirective } from "./directive/star.directive";
         CommonModule,
         HttpClientModule
     ],
-    providers: [AppItemService],
+    providers: [ItemService],
     bootstrap: [AppComponent]
 })
 export class AppModule {

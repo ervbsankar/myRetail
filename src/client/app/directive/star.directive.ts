@@ -1,7 +1,7 @@
 import {Directive, ElementRef, Input, Renderer2} from "@angular/core";
 
 /*
-   value of rating will be passed to this directive as input
+   value of rating will be passed to this directive as input("appStar")
    number of red color star will be created equivalent to rating value
    white color star will be created equivalent to 5 - rating value
  */
@@ -26,7 +26,7 @@ export class StarDirective {
                 if (this.size === "lg") {
                     this.ren.addClass(_span, "fa-red-star-lg");
                 }
-                if (this.size === "sm") {
+                if (this.size === "md") {
                     this.ren.addClass(_span, "fa-red-star-md");
                 }
                 this.ren.appendChild(this.el.nativeElement, _span);
@@ -37,7 +37,7 @@ export class StarDirective {
                 if (this.size === "lg") {
                     this.ren.addClass(_span1, "fa-white-star-lg");
                 }
-                if (this.size === "sm") {
+                if (this.size === "md") {
                     this.ren.addClass(_span1, "fa-white-star-md");
                 }
                 this.ren.appendChild(this.el.nativeElement, _span1);

@@ -10,7 +10,7 @@
     "watch:client": "ng serve --proxy-config proxy.config.json",
     "watch:server": "nodemon src/server/server.js",
     "watch": "run-p watch:*",
-    "test": "ng test",
+    "test": "ng test --sourcemap=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },

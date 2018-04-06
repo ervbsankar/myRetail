@@ -3,6 +3,37 @@
     height: 1.10em;
 }
 
+.title-align-weight {
+    font-weight: 300;
+    text-align: center;
+}
+
+.price-display-size {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.price-media-size {
+    font-size: 10px;
+    margin-left: 3px;
+    display: inline-block;
+}
+
+.short-desc-color-size {
+    color: #dc1821;
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
 .form-control {
     border-radius: 1.20em;
 }
@@ -32,6 +63,11 @@
 
 .fa-tags {
     color: #dc1821;
+}
+
+.qty-border-radius {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
 }
 
 .fa-my {
